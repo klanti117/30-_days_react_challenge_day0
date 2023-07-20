@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import logo from './logo2.png';
 import './App.css';
 
 function App() {
@@ -6,18 +6,12 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
+      {/* TODO: these br are here so that the logo doesnot rotate over text */}
+      <br/>
+      <br/>
+      <br/>
+      <h1>Day0: Boiler plate code </h1>
     </div>
   );
 }
