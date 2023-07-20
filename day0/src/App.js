@@ -3,7 +3,7 @@ import './App.css';
 import { useState } from 'react'
 
 function App() {
-  const [time, showTime] =useState('')
+  const [time, showTime] =useState(false)
   let myTime = new Date()
   let timeInString = myTime.toString()
   return (
@@ -16,8 +16,12 @@ function App() {
       <br/>
       <br/>
       <h1>Day1: Show time </h1>
-      <button onClick={()=>showTime(timeInString)}>Show Time !!</button>
-      <p>{time}</p>
+      <button onClick={()=>showTime(!time)}>
+        {time ? 'Hide Time !!' : 'Show Time !!'}
+      </button>
+      <>
+        {time ? <p>{timeInString}</p>:null}
+      </>
     </div>
   );
 }
