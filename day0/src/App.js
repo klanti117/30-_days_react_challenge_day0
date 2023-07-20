@@ -16,12 +16,14 @@ function App() {
       <br/>
       <br/>
       <h1>Day1: Show time </h1>
-      <button onClick={()=>showTime(!time)}>
-        {time ? 'Hide Time !!' : 'Show Time !!'}
-      </button>
-      <>
-        {time ? <p>{timeInString}</p>:null}
-      </>
+      <div class="content">
+        <button onClick={()=>showTime(!time)}>
+          {time ? 'Hide Time !!' : 'Show Time !!'}
+        </button>
+        <>
+          {time ? <p>{timeInString}</p>:null}
+        </>
+        </div>
     </div>
   );
 }

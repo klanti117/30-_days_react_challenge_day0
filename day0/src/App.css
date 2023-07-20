@@ -36,6 +36,12 @@
   }
 }
 
+.content { 
+  padding: 50px;
+  border: 2px dashed #ff5e0e;
+  color: #93c572;
+}
+
 /* orange #ff5e0e */
 /* green #93c572 */
 /* yellow #fedc56 */
