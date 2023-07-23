@@ -1,7 +1,8 @@
 import logo from './logo2.png';
 import './App.css';
-
+import Card from './components/card'
 function App() {
+  let items = [1,2,3,4.5,6]
   return (
     <div className="App">
       <header className="App-header">
@@ -11,7 +12,10 @@ function App() {
       <br/>
       <br/>
       <br/>
-      <h1>Day0: Boiler plate code </h1>
+      <h1>Day3: Random Color </h1>
+      {
+        items.map(()=><Card/>)
+      }
     </div>
   );
 }
