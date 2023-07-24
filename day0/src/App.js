@@ -1,6 +1,7 @@
 import logo from './logo2.png';
 import './App.css';
 import Card from './components/card'
+
 function App() {
   let items = [1,2,3,4.5,6]
   return (
