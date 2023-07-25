@@ -4,7 +4,6 @@ import TimeCard from '../TimeCard/TimeCard'
 const containerStyles = {
     display:'grid',
     gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
-    // border: '2px solid #ff5e0e'
 }
 
 const TimesContainer = () => {
@@ -24,5 +23,3 @@ const TimesContainer = () => {
 }
 
 export default TimesContainer
-
-// style={{border: '2px solid #ff5e0e'}}
