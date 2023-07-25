@@ -12,7 +12,7 @@ function App() {
       <br/>
       <br/>
       <h1>Day4: Show Time </h1>
-      <Button/>
+      <Button buttonText='Show Me the times'/>
     </div>
   );
 }
