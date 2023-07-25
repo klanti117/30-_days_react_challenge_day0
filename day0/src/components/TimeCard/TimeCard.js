@@ -1,8 +1,10 @@
 import React from 'react'
 
-const TimeCard = () => {
+const TimeCard = (props) => {
   return (
-    <div>TimeCard</div>
+    <div>
+        <p>{props.text}</p>
+    </div>
   )
 }
 

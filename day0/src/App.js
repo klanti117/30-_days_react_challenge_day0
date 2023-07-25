@@ -1,7 +1,11 @@
 import logo from './logo2.png';
 import './App.css';
-import Button from './components/Button/Button'
+// import Button from './components/Button/Button'
+import { useState } from 'react'
+import TimesContainer from './components/TimesContainer/TimesContainer';
+
 function App() {
+  const [time, showTime] = useState(false)
   return (
     <div className="App">
       <header className="App-header">
@@ -12,7 +16,11 @@ function App() {
       <br/>
       <br/>
       <h1>Day4: Show Time </h1>
-      <Button buttonText='Show Me the times'/>
+      <button 
+        onClick={()=>showTime(!time)}>{time? 'Hide Time':'Show Time'}</button>
+      <>
+      {time? <TimesContainer/>:null}
+      </>
     </div>
   );
 }
