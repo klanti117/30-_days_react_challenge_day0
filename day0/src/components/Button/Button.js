@@ -1,8 +1,8 @@
 import React from 'react'
 
-const Button = (props) => {
+const Button = ({ showTime, time, buttonText}) => {
   return (
-    <button>{props.buttonText}</button>
+    <button  onClick={()=>showTime(!time)}>{buttonText}</button>
   )
 }
 

@@ -1,6 +1,6 @@
 import logo from './logo2.png';
 import './App.css';
-// import Button from './components/Button/Button'
+import Button from './components/Button/Button'
 import { useState } from 'react'
 import TimesContainer from './components/TimesContainer/TimesContainer';
 
@@ -16,10 +16,9 @@ function App() {
       <br/>
       <br/>
       <h1>Day4: Show Time </h1>
-      <button 
-        onClick={()=>showTime(!time)}>{time? 'Hide Time':'Show Time'}</button>
+      <Button showTime={showTime} time={time} buttonText={time? 'Hide Time':'Show Time'}/>
       <>
-      {time? <TimesContainer/>:null}
+        {time? <TimesContainer/>:null}
       </>
     </div>
   );
