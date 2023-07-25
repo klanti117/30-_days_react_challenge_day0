@@ -11,7 +11,7 @@ function App() {
       <br/>
       <br/>
       <br/>
-      <h1>Day0: Boiler plate code </h1>
+      <h1>Day0: Boilerplate code </h1>
     </div>
   );
 }
