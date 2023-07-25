@@ -1,6 +1,6 @@
 import logo from './logo2.png';
 import './App.css';
-
+import Button from './components/Button/Button'
 function App() {
   return (
     <div className="App">
@@ -11,7 +11,8 @@ function App() {
       <br/>
       <br/>
       <br/>
-      <h1>Day0: Boilerplate code </h1>
+      <h1>Day4: Show Time </h1>
+      <Button/>
     </div>
   );
 }
