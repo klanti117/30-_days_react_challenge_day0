@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  color: #d3d3d3
+  color: black
 }
 
 .App-logo {
@@ -36,6 +36,12 @@
   }
 }
 
+.cardStyles {
+  background-color: '#93c572';
+  padding: '1rem';
+  border: '2px solid white';
+  color:'black'
+}
 /* orange #ff5e0e */
 /* green #93c572 */
 /* yellow #fedc56 */
